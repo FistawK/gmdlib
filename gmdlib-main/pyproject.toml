@@ -1,0 +1,27 @@
+[project]
+name = "gmdlib"
+version = "1"
+authors = [
+  { name="Layiu" },
+]
+dependencies = [
+    "requests"
+]
+description = "A library that makes sending requests to the Geometry Dash servers and reading the responses easier. Based on dashlib by https://github.com/itzmetanjim"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/FistawK/gmdlib"
+Issues = "https://github.com/FistawK/gmdlib/issues"
+[build-system]
+requires = ["setuptools"]
+
+build-backend = "setuptools.build_meta"
